@@ -24,3 +24,7 @@ Use the template below to make assigning a version number during the release cut
   - Added a new error reporting system that is intended to eventually replace using `log::error` to report errors
   - Added code using the new system to track down application-services#4856
   - Added UniFFI API for this crate.  Consumers should use this to register for error reports and breadcrumbs.
+
+## FxA Client
+### What's changed
+- The devices retrieved from the devices list are now only the devices that have been accessed in 21 days. This should help remove duplicates and idle devices for users.
