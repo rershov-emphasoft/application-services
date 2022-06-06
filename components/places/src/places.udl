@@ -73,6 +73,7 @@ interface PlacesConnection {
     [Throws=PlacesError]
     sequence<SearchResult> query_autocomplete(string search, i32 limit);
 
+    // TODO: The url should be a `URL`
     [Throws=PlacesError]
     void accept_result(string search_string, string url);
 
@@ -108,7 +109,7 @@ interface PlacesConnection {
 
     [Throws=PlacesError]
     sequence<HistoryVisitInfo> get_visit_page(i64 offset, i64 count, VisitTransitionSet exclude_types);
-
+    // TODO: bound should be a `PlacesTimestamp`?
     [Throws=PlacesError]
     HistoryVisitInfosWithBound get_visit_page_with_bound(i64 bound, i64 offset, i64 count, VisitTransitionSet exclude_types);
 

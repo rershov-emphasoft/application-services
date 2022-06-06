@@ -58,6 +58,8 @@
 		1BF50F1927B1E19500A9C8A5 /* FxAccountManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAC54127AE065300DAFEF2 /* FxAccountManagerTests.swift */; };
 		1BF50F1A27B1E19800A9C8A5 /* FxAccountMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAC53C27AE065300DAFEF2 /* FxAccountMocks.swift */; };
 		1BFC469827C99F250034E0A5 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC469627C99F250034E0A5 /* Metrics.swift */; };
+		456FAEC9284EB30A00EF967E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FAEC8284EB30A00EF967E /* History.swift */; };
+		456FAECA284EB30A00EF967E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FAEC8284EB30A00EF967E /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -166,6 +168,7 @@
 		1BF50F2327B1E53E00A9C8A5 /* metrics.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = metrics.yaml; path = ../../../components/nimbus/metrics.yaml; sourceTree = SOURCE_ROOT; };
 		1BF50F2B27B1EB7D00A9C8A5 /* sdk_generator.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = sdk_generator.sh; path = "../../../../../components/external/glean/glean-core/ios/sdk_generator.sh"; sourceTree = SOURCE_ROOT; };
 		1BFC469627C99F250034E0A5 /* Metrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Metrics.swift; path = MozillaTestServices/Generated/Metrics.swift; sourceTree = SOURCE_ROOT; };
+		456FAEC8284EB30A00EF967E /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +374,7 @@
 				1BBAC5A527AE0F2E00DAFEF2 /* Bookmark.swift */,
 				1BBAC5A627AE0F2E00DAFEF2 /* HistoryMetadata.swift */,
 				1BBAC5A727AE0F2E00DAFEF2 /* Places.swift */,
+				456FAEC8284EB30A00EF967E /* History.swift */,
 			);
 			name = Places;
 			path = ../../../../components/places/ios;
@@ -624,6 +628,7 @@
 				1B3BC94B27B1D79B00229CF6 /* LoginsStorage.swift in Sources */,
 				1B3BC98927B1D9B800229CF6 /* Unreachable.swift in Sources */,
 				1BF50F1727B1E18000A9C8A5 /* KeychainItemAccessibility.swift in Sources */,
+				456FAEC9284EB30A00EF967E /* History.swift in Sources */,
 				1B3BC94027B1D62800229CF6 /* Places.swift in Sources */,
 				1BF50F1527B1E17B00A9C8A5 /* FxAccountState.swift in Sources */,
 			);
@@ -637,6 +642,7 @@
 				1B3BC95027B1D92A00229CF6 /* NimbusFeatureVariablesTests.swift in Sources */,
 				1BF50F1A27B1E19800A9C8A5 /* FxAccountMocks.swift in Sources */,
 				1B3BC95127B1D93100229CF6 /* CrashTestTests.swift in Sources */,
+				456FAECA284EB30A00EF967E /* History.swift in Sources */,
 				1B3BC94727B1D73500229CF6 /* LogTest.swift in Sources */,
 				1B3BC94327B1D63B00229CF6 /* PlacesTests.swift in Sources */,
 				1B3BC94827B1D73700229CF6 /* LoginsTests.swift in Sources */,
